@@ -1,0 +1,241 @@
+
+
+
+
+* {
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background-color: #fff;
+	color: #DC143C;
+	font-family:  Verdana Arial , serif;
+	font-size: 20px;
+	
+}
+
+section {
+    margin-bottom: 2%;
+}
+
+
+.test {
+    height: 400px;
+}
+.row {
+    
+    max-width: 1200px;
+	margin: 0 auto;
+    
+}
+
+.row {
+    max-width: 1200px;
+}
+
+nav {
+	 margin-top: -1%;
+    height: 9%;
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 0.2px solid ;
+    
+}
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(naslovna.jpg);
+    background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+   
+}
+
+
+header ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+    margin-left: -2%;
+    margin-top: 1.7%
+        
+}
+
+header li {
+    display:inline-block;
+    float: left;
+    margin-right: 2px;
+}
+
+header li a {
+    display:block;
+    min-width:120px;
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+    color: black;
+    background: #fff;
+    text-decoration: none;
+}
+
+header li:hover a {
+    background: #DEB887;
+    color: #fff;
+}
+
+.show-menu {
+	background:#DEB887;
+	margin-bottom:15px 0;
+	border-radius:3px;
+    text-align: right;
+    padding: 10px 0;
+	color:#fff;
+    display: none;
+    
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+.naslovna {
+	width: 1200px;
+    position: absolute;
+    top: 30%;
+	left: 11%;
+    display: block;
+}
+
+h2 {
+	margin-left:-1%;
+	word-spacing: 2px;
+	text-align: left;
+	font-size: 1.8em;
+	margin-bottom: 15px;
+	letter-spacing: 1px; 
+}
+
+.naslovna h1 {
+	font-family:Monotype Corsiva;
+	text-align: center;
+    font-size: 4em;
+    font-weight: 300;
+	letter-spacing: 3px;
+    word-spacing: 4px;
+	
+	
+   
+}
+
+.text {
+	font-size:1em;
+    line-height: 1.5;
+	width: 100%;
+	margin-left: -1%; 
+	margin-right: 3%;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.btn:link, 
+.btn:visited {
+    margin-top: 20%;
+    display: inline-block;
+    padding: 10px 40px;
+	float: left;
+	font-size: inherit;
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 0px 0px 0px 0px;
+	border: 3px solid #DEB887;
+	
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #DEB887; 
+    border-radius: 15px 15px 15px 15px;
+    transition: all .3s ease-in;
+}
+
+
+.btn-full:link,
+.btn-full:visited {
+	background-color: #DEB887;
+	color: #DC143C;
+	margin-right: 15px;
+}
+
+.btn-full:hover,
+.btn-full:active { border: 2px solid #fff; }
+
+
+.slike {
+	
+    margin-left: 3%;
+    margin-bottom: 5%;
+
+}
+
+.onama {
+    margin-bottom: 5%;
+	padding:10px;
+}
+
+form {
+    width: 80%;
+    top: 0;
+    height: 300px;
+    margin-left: -1%;
+    margin-bottom: 6%;
+}
+
+input {
+    width: 55%;
+    height: 30px;
+    
+}
+
+textarea {
+    width: 55%;
+    height: 100px;
+}
+
+button {
+    margin-left: 1%;
+    display: inline-block;
+	padding: 10px 30px;
+	font-size: 25px;
+	font-weight: 300;
+	text-decoration: none;
+	border: 4px solid #DEB887;
+    background-color: #DC143C;
+	color: white;
+}
+
+.kontakt {
+    margin-bottom: 6%;
+}
+
+footer {
+	height: 100px;
+    background-color: #DC143C;
+    color: #000000;
+	text-align: center;
+	padding:50px;
+   
+}
+
+
+
+
+
